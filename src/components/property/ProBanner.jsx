@@ -1,6 +1,6 @@
 import React from 'react'
 import bannerBg from '../../assets/bannerImg.png'
-import FloatingSearch from '../home/FloatingSearch'
+// FloatingSearch removed
 
 
 const ProBanner = () => {
@@ -18,8 +18,7 @@ const ProBanner = () => {
             </div>
 
 
-            {/* ------------------ FLoating Search Box  */}
-            <FloatingSearch />
+            {/* FloatingSearch component removed */}
         </main>
     </>
   )
