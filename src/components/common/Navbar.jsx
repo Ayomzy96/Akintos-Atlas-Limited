@@ -27,7 +27,7 @@ const Navbar = () => {
                         <div data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="2200">
                             <Link id='HoverLinks' to={'/'} className='flex items-center gap-2 text-brand font-medium'>
                                 <IoCallOutline className='text-2xl' />
-                                (257) 388-6895
+                                +234 909 671 0315 <br />+4407459478486
                             </Link>
                         </div>
                     </div>
