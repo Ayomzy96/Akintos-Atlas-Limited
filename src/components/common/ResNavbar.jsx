@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Logo from '../../assets/Logo.svg'
 import { FaBarsStaggered } from 'react-icons/fa6';
 import { Link } from 'react-router';
-import { FaRegCircleUser } from 'react-icons/fa6'
 import { IoCallOutline } from 'react-icons/io5'
 import { RxCross2 } from 'react-icons/rx';
 
@@ -19,7 +18,6 @@ const ResNavBar = () => {
                         {/* -----------Links--------  */}
                         <div className='flex items-center gap-4'>
                             <ul className='flex items-center gap-x-2 text-[23px] text-second font-roboto'>
-                                <li><button className='w-[40px] cursor-pointer h-[40px] flex items-center justify-center hover:bg-primary hover:text-white rounded-[4px] duration-300' data-aos="fade-down" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="2400"><FaRegCircleUser /></button></li>
                                 <li><button className='w-[40px] cursor-pointer h-[40px] flex items-center justify-center hover:bg-primary hover:text-white rounded-[4px] duration-300' data-aos="fade-down" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="2400"><IoCallOutline /></button></li>
                             </ul>
                             {/* -----------Nav button--------  */}

@@ -33,19 +33,19 @@ const ContactTouch = () => {
 
                             <div className='flex items-start gap-3 mt-5'>
                                 <FiMapPin className='md:text-2xl text-lg mt-1.5'/>
-                                <p className='text-headText md:text-xl text-sm font-semibold md:w-[260px]'>8911 Tanglewood Ave. Capitol Heights, MD 20743</p>
+                                <p className='text-headText md:text-xl text-sm font-semibold md:w-[260px]'>(Lagos): 17 Oluwole oladejo, Ojodu, Berger<br/>(England): 14 granville Road ME12 1QL</p>
                             </div>
                             <div className='flex items-start gap-3 md:mt-6 mt-3'>
                                 <IoCallOutline className='md:text-2xl text-lg'/>
-                                <p className='text-headText md:text-xl text-sm font-semibold'>(566) 237-4687</p>
+                                <p className='text-headText md:text-xl text-sm font-semibold'>+234 909 671 0315</p>
                             </div>
                             <div className='flex items-start gap-3 md:mt-6 mt-3'>
                                 <IoCallOutline className='md:text-2xl text-lg'/>
-                                <p className='text-headText md:text-xl text-sm font-semibold'>(239) 319-8083</p>
+                                <p className='text-headText md:text-xl text-sm font-semibold'>+4407459478486</p>
                             </div>
                             <div className='flex items-start gap-3 md:mt-6 mt-3'>
                                 <CiMail className='md:text-2xl text-lg mt-1'/>
-                                <p className='text-headText md:text-xl text-sm font-semibold'>munnascript@gmail.com</p>
+                                <p className='text-headText md:text-xl text-sm font-semibold'>tosinakinrinde@akintosatlas.com</p>
                             </div>
                         </div>
                     </div>
