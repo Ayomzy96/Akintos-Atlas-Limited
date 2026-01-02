@@ -5,6 +5,7 @@ import Client from '../components/About/Client'
 import Discover from '../components/About/Discover'
 // Agents section removed
 import Personalized from '../components/About/Personalized'
+import Team from '../components/About/Team'
 
 const About = () => {
   return (
@@ -12,8 +13,9 @@ const About = () => {
       <AboutBanner />
       <ExpertAdvice />
       <Client />
-  <Discover />
-  <Personalized />
+    <Discover />
+    <Team />
+    <Personalized />
     </>
   )
 }
