@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import img from '../../assets/hawai.png'
 
-import { realEstateData } from "../../../public/RealStateData";
+import { realEstateData } from "../../data/RealStateData";
 import { useNavigate } from 'react-router';
 
 const Discover = () => {

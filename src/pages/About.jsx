@@ -3,7 +3,7 @@ import AboutBanner from '../components/About/AboutBanner'
 import ExpertAdvice from '../components/About/ExpertAdvice'
 import Client from '../components/About/Client'
 import Discover from '../components/About/Discover'
-import Agents from '../components/About/Agents'
+// Agents section removed
 import Personalized from '../components/About/Personalized'
 
 const About = () => {
@@ -12,9 +12,8 @@ const About = () => {
       <AboutBanner />
       <ExpertAdvice />
       <Client />
-      <Discover />
-      <Agents />
-      <Personalized />
+  <Discover />
+  <Personalized />
     </>
   )
 }

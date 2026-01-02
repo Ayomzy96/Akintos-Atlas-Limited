@@ -1,6 +1,6 @@
 import React from 'react'
 import pfp from '../../assets/pfp1.png'
-import { realEstateData } from '../../../public/RealStateData'
+import { realEstateData } from '../../data/RealStateData'
 import SingleHouseCard from '../../components/common/SingleHouseCard'
 import { useNavigate } from 'react-router'
 

@@ -11,7 +11,7 @@ import PropertyDetails from './PropertyDetails'
 import DetailsRightSide from './DetailsRightSide'
 import Slider from 'react-slick'
 import SingleHouseCard from '../common/SingleHouseCard'
-import { realEstateData } from '../../../public/RealStateData'
+import { realEstateData } from '../../data/RealStateData'
 import { useNavigate } from 'react-router'
 
 const DetailsInfo = ({ totalArea, bedrooms, bathrooms, floor, elevator, year }) => {

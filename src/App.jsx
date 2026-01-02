@@ -10,7 +10,6 @@ import Home from './pages/Home'
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Details from './pages/Details';
-import People from './pages/People';
 import Services from './pages/Services';
 import Projects from './pages/Projects';
 import JoinUs from './pages/JoinUs';
@@ -24,7 +23,6 @@ const App = () => {
   {/* Property route removed — use /projects and /services for consultancy content */}
   <Route path='/contact' element={<Contact />} />
   <Route path='/about' element={<About />} />
-  <Route path='/people' element={<People />} />
   <Route path='/services' element={<Services />} />
   <Route path='/projects' element={<Projects />} />
   <Route path='/join-us' element={<JoinUs />} />

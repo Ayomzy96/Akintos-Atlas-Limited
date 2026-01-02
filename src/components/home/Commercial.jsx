@@ -1,7 +1,7 @@
 import React from 'react'
 import CommonHead from '../common/CommonHead'
 import SingleHouseCard from '../common/SingleHouseCard'
-import { realEstateData } from '../../../public/RealStateData'
+import { realEstateData } from '../../data/RealStateData'
 import { useNavigate } from 'react-router'
 
 const Commercial = () => {

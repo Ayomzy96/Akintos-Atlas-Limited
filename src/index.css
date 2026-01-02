@@ -18,7 +18,10 @@
   --color-blueTxt: #0057FF;
   --color-headText: #100E2C;
   --color-subText: #7A7474;
-  --color-tagColor: #8EDA53;
+    --color-tagColor: #8EDA53;
+
+    /* subtle brand accent (green) used for hover/underline accents */
+    --color-accent: #2f9e44;
 
 }
 

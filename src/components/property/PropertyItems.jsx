@@ -1,5 +1,5 @@
 import React from 'react'
-import { realEstateData } from '../../../public/RealStateData'
+import { realEstateData } from '../../data/RealStateData'
 import SingleHouseCard from '../common/SingleHouseCard'
 import Pagination from './Pagination'
 import { useState } from 'react'

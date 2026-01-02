@@ -15,7 +15,6 @@ const Navbar = () => {
                     <ul className='flex items-center gap-7 text-brand font-medium'>
                         <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="1000"><Link id='HoverLinks' to={'/'}>HOME</Link></li>
                         <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="1100"><Link id='HoverLinks' to={'/about'}>ABOUT</Link></li>
-                        <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="1200"><Link id='HoverLinks' to={'/people'}>PEOPLE</Link></li>
                         <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="1300"><Link id='HoverLinks' to={'/services'}>SERVICES</Link></li>
                         <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="1400"><Link id='HoverLinks' to={'/projects'}>PROJECTS</Link></li>
                         <li data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-delay="1500"><Link id='HoverLinks' to={'/join-us'}>JOIN US</Link></li>

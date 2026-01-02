@@ -42,7 +42,7 @@ const ResNavBar = () => {
                         <div className='flex flex-col items-start gap-5 text-xl mt-25'>
                             <div data-aos="fade-up" className='border-b-1 border-gray-400 w-full pb-3'><Link onClick={() => SetValue(!Value)} className='text-second font-josefin flex items-center gap-2' to={'/'}>HOME</Link></div>
                             <div data-aos="fade-up" className='border-b-1 border-gray-400 w-full pb-3'><Link onClick={() => SetValue(!Value)} className='text-second font-josefin flex items-center gap-2' to={'/about'}>ABOUT</Link></div>
-                            <div data-aos="fade-up" className='border-b-1 border-gray-400 w-full pb-3'><Link onClick={() => SetValue(!Value)} className='text-second font-josefin flex items-center gap-2' to={'/people'}>PEOPLE</Link></div>
+
                             <div data-aos="fade-up" className='border-b-1 border-gray-400 w-full pb-3'><Link onClick={() => SetValue(!Value)} className='text-second font-josefin flex items-center gap-2' to={'/services'}>SERVICES</Link></div>
                             <div data-aos="fade-up" className='border-b-1 border-gray-400 w-full pb-3'><Link onClick={() => SetValue(!Value)} className='text-second font-josefin flex items-center gap-2' to={'/projects'}>PROJECTS</Link></div>
                             <div data-aos="fade-up" className='border-b-1 border-gray-400 w-full pb-3'><Link onClick={() => SetValue(!Value)} className='text-second font-josefin flex items-center gap-2' to={'/join-us'}>JOIN US</Link></div>
